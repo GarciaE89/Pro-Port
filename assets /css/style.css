@@ -42,20 +42,22 @@ header {
     font-size: 22px;
   }
 
-  section {
-    padding: 60px;
-  }
-  .aboutSection {
+  /* .bodySection {
+   
+  } */
+  .bodySection {
     height: 600px;
     /* background-image: url("../images/hero-bg.jpeg"); */
     background-size: cover;
     background-position: center;
     position: relative;
+    padding: 60px;
   }
-.aboutSection img {
+.bodySection img {
   width: 300px;
   height: auto;
   float: left;
+  
 }
   .about {
     color: #7e5109;
@@ -69,8 +71,26 @@ header {
 
 }
 
-.aboutSection p {
+.bodySection p {
   margin: 5px 0 15px 0;
+
+}
+.bodySection h2 {
+  font-weight: bold;
+  /* font-size: 36px; */
+  color: #7e5109;
+  margin: 0;
+  display: inline;
+  position: relative;
+  
+}
+.run-buddy img {
+  width: 75%;
+  height: auto;
+  border-radius: 5%;
+  border-width: 3px;
+  float: right;
+
 }
 
 footer {
