@@ -41,7 +41,7 @@ header {
     font-weight: lighter;
     font-size: 22px;
   }
-  
+
   section {
     padding: 60px;
   }
@@ -52,14 +52,19 @@ header {
     background-position: center;
     position: relative;
   }
-
+.aboutSection img {
+  width: 300px;
+  height: auto;
+  float: left;
+}
   .about {
     color: #7e5109;
    
-    width: 500px;
+    width: 800px;
     padding: 20px;
     
-    position: absolute;
+    position: relative;
+    float: left;
     
 
 }
