@@ -5,8 +5,8 @@
   }
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;
+    
+    color: #7e5109;
     font-family: Helvetica, Arial, sans-serif;
   }
    /* apply styles to <header> */
@@ -18,13 +18,13 @@ header {
   header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #7e5109;
+    
     margin: 0;
     display: inline;
   }
   
   header a {
-    color: #7e5109;
+    
     text-decoration: none;
   }
   header nav {
@@ -40,18 +40,17 @@ header {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    color: #7e5109;
   }
 
-  /* .bodySection {
-   
-  } */
+
   .bodySection {
     height: 600px;
-    /* background-image: url("../images/hero-bg.jpeg"); */
-    background-size: cover;
-    background-position: center;
+   
+    
     position: relative;
     padding: 60px;
+    overflow: auto;
   }
 .bodySection img {
   width: 300px;
@@ -59,49 +58,96 @@ header {
   float: left;
   
 }
+
+.bodySection h1 {
+  font-weight: bold;
+  font-size: 36px;
+  
+  margin: 0;
+  /* display: inline; */
+  position: relative;
+  
+}
+
+
   .about {
-    color: #7e5109;
+    
    
-    width: 800px;
+    width: 600px;
     padding: 20px;
+    
     
     position: relative;
     float: left;
+    display: inline-block;
     
 
 }
 
-.bodySection p {
+.about p {
   margin: 5px 0 15px 0;
 
 }
 .bodySection h2 {
   font-weight: bold;
-  /* font-size: 36px; */
-  color: #7e5109;
+  font-size: 36px;
+ 
   margin: 0;
-  display: inline;
+  
   position: relative;
+  float: left;
   
 }
+.run-buddy {
+  position: relative;
+  text-align: center;
+  display: inline-block
+ 
+
+}
 .run-buddy img {
-  width: 75%;
+  width: 65%;
+  height: auto;
+  border-radius: 8%;
+  border-width: 3px;
+  float: right;
+ 
+
+}
+.horiseon {
+  position: relative;
+  text-align: center;
+}
+
+.horiseon img {
+  width: 50%;
   height: auto;
   border-radius: 5%;
   border-width: 3px;
-  float: right;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
+
+/* .bottom-left {
+  position:relative;
+  bottom: 8px;
+  left: 16px;
+  
+} */
 
 footer {
   background: #ffa07a;
   width: 100%;
   padding: 40px 35px;
+  overflow: auto;
+  
 }
 
 footer h2 {
   display: inline;
-  color: #7e5109;
+  
   font-size: 30px;
   margin: 0;
 }
@@ -110,9 +156,16 @@ footer div {
   float: right;
   line-height: 1.5;
   text-align: right;
-  color: #7e5109;
+  
+  
 }
 
+footer div a {
+  margin: 0 30px;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #7e5109;
+}
 footer a {
   color: #024e76;
 }
