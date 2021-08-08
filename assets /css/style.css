@@ -10,7 +10,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #C7F6F9;
   }
-   /* apply styles to <header> */
+   
 header {
     padding: 20px 35px;
     background-color: #ffa07a;
@@ -57,22 +57,38 @@ header {
 
 .container {
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   padding: 20px 35px;
+  margin: 50 px auto;
+  width: 80%;
+  flex-direction: column;
   
 }
 .flex-row{
   justify-content: space-between;
-}
-.container h1 {
-  font-weight: bold;
-  font-size: 50px;
   display: flex;
+  text-align: center;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  
   
  
   
+  
+}
+
+.avatar-img {
+  width: 50%;
+  height: auto;
+  display: flex;
+  padding: 20px 35px;
+  justify-content: space-between;
+  flex-wrap: wrap;
   
 }
 .container p {
@@ -84,35 +100,23 @@ header {
   
   
 }
-.container img {
-  width: 300px;
-  height: auto;
-  
-  padding: 20px 35px;
-  
-}
 
 
 
-.run-buddy {
-  position: relative;
-  text-align: center;
-  display: inline-block
- 
 
-}
+
 .run-buddy img {
   width: 65%;
   height: auto;
   border-radius: 8%;
   border-width: 3px;
-  float: right;
+  display: flex;
  
 
 }
 .horiseon {
-  position: relative;
-  text-align: center;
+  display: flex;
+ 
 }
 
 .horiseon img {
@@ -120,24 +124,20 @@ header {
   height: auto;
   border-radius: 5%;
   border-width: 3px;
-  float: left;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: flex;
+  margin-top: 10px;
+  
+  
 
 }
 
-/* .bottom-left {
-  position:relative;
-  bottom: 8px;
-  left: 16px;
-  
-} */
 
 footer {
   background: #ffa07a;
   width: 100%;
   padding: 40px 35px;
-  display: flex;
+  display:flex;
+  justify-content: space-between;
  
   
 }
@@ -163,18 +163,13 @@ footer a {
   font-weight: lighter;
 }
 
-/* .container  {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-} */
+
 
 /* @media for media quieres */
 
 @media only screen and (max-width:1000px) {
   .container {
     
-    padding: 50px;
-    margin: auto;
+    
   }
 }
